@@ -1,0 +1,67 @@
+Nov 21 01:43:54 dallas-Inspiron-7559 sudo:   dallas : TTY=pts/2 ; PWD=/home/dallas ; USER=root ; COMMAND=/usr/bin/apt update
+Nov 21 01:43:54 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 21 01:43:58 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 01:44:11 dallas-Inspiron-7559 sudo:   dallas : TTY=pts/2 ; PWD=/home/dallas ; USER=root ; COMMAND=/usr/bin/apt list --upgradable
+Nov 21 01:44:11 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 21 01:44:11 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 01:44:25 dallas-Inspiron-7559 sudo:   dallas : TTY=pts/2 ; PWD=/home/dallas ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Nov 21 01:44:25 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 21 01:45:49 dallas-Inspiron-7559 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov 21 01:45:49 dallas-Inspiron-7559 pkexec[31724]: dallas: Executing command [USER=root] [TTY=unknown] [CWD=/home/dallas] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 21 01:48:30 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 01:48:50 dallas-Inspiron-7559 pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Nov 21 01:48:50 dallas-Inspiron-7559 pkexec[2445]: dallas: Executing command [USER=root] [TTY=unknown] [CWD=/home/dallas] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 21 01:49:35 dallas-Inspiron-7559 gnome-keyring-daemon[1050]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Nov 21 01:51:39 dallas-Inspiron-7559 gnome-keyring-daemon[1050]: asked to register item /org/freedesktop/secrets/collection/Default_5fkeyring/1, but it's already registered
+Nov 21 01:51:39 dallas-Inspiron-7559 gnome-keyring-daemon[1050]: asked to register item /org/freedesktop/secrets/collection/Default_5fkeyring/1, but it's already registered
+Nov 21 02:04:45 dallas-Inspiron-7559 systemd-logind[788]: New seat seat0.
+Nov 21 02:04:45 dallas-Inspiron-7559 systemd-logind[788]: Watching system buttons on /dev/input/event3 (Power Button)
+Nov 21 02:04:45 dallas-Inspiron-7559 systemd-logind[788]: Watching system buttons on /dev/input/event5 (Video Bus)
+Nov 21 02:04:45 dallas-Inspiron-7559 systemd-logind[788]: Watching system buttons on /dev/input/event6 (Video Bus)
+Nov 21 02:04:45 dallas-Inspiron-7559 systemd-logind[788]: Watching system buttons on /dev/input/event1 (Power Button)
+Nov 21 02:04:45 dallas-Inspiron-7559 systemd-logind[788]: Watching system buttons on /dev/input/event2 (Lid Switch)
+Nov 21 02:04:45 dallas-Inspiron-7559 systemd-logind[788]: Watching system buttons on /dev/input/event0 (Sleep Button)
+Nov 21 02:04:45 dallas-Inspiron-7559 systemd-logind[788]: Watching system buttons on /dev/input/event10 (Dell WMI hotkeys)
+Nov 21 02:04:45 dallas-Inspiron-7559 gdm-autologin]: gkr-pam: no password is available for user
+Nov 21 02:04:45 dallas-Inspiron-7559 gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user dallas by (uid=0)
+Nov 21 02:04:45 dallas-Inspiron-7559 systemd-logind[788]: New session 1 of user dallas.
+Nov 21 02:04:45 dallas-Inspiron-7559 systemd: pam_unix(systemd-user:session): session opened for user dallas by (uid=0)
+Nov 21 02:04:51 dallas-Inspiron-7559 polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.31 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 21 02:06:05 dallas-Inspiron-7559 gnome-keyring-daemon[1030]: couldn't allocate secure memory to keep passwords and or keys from being written to the disk
+Nov 21 02:17:01 dallas-Inspiron-7559 CRON[3448]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 02:17:01 dallas-Inspiron-7559 CRON[3448]: pam_unix(cron:session): session closed for user root
+Nov 21 02:25:26 dallas-Inspiron-7559 gnome-keyring-daemon[1030]: asked to register item /org/freedesktop/secrets/collection/Default_5fkeyring/1, but it's already registered
+Nov 21 02:25:26 dallas-Inspiron-7559 gnome-keyring-daemon[1030]: asked to register item /org/freedesktop/secrets/collection/Default_5fkeyring/1, but it's already registered
+Nov 21 02:45:41 dallas-Inspiron-7559 gnome-keyring-daemon[1030]: asked to register item /org/freedesktop/secrets/collection/Default_5fkeyring/1, but it's already registered
+Nov 21 02:45:41 dallas-Inspiron-7559 gnome-keyring-daemon[1030]: asked to register item /org/freedesktop/secrets/collection/Default_5fkeyring/1, but it's already registered
+Nov 21 02:46:49 dallas-Inspiron-7559 gnome-keyring-daemon[1030]: asked to register item /org/freedesktop/secrets/collection/Default_5fkeyring/1, but it's already registered
+Nov 21 02:46:49 dallas-Inspiron-7559 gnome-keyring-daemon[1030]: asked to register item /org/freedesktop/secrets/collection/Default_5fkeyring/1, but it's already registered
+Nov 21 02:47:14 dallas-Inspiron-7559 sudo:   dallas : TTY=pts/0 ; PWD=/home/dallas ; USER=root ; COMMAND=/usr/bin/apt install curl
+Nov 21 02:47:14 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 21 02:47:15 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 02:47:53 dallas-Inspiron-7559 sudo:   dallas : TTY=pts/0 ; PWD=/home/dallas ; USER=root ; COMMAND=/bin/mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
+Nov 21 02:47:53 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 21 02:47:53 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 02:48:19 dallas-Inspiron-7559 sudo:   dallas : TTY=pts/0 ; PWD=/home/dallas ; USER=root ; COMMAND=/bin/sh -c echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-ubuntu-zesty-prod zesty main" > /etc/apt/sources.list.d/dotnetdev.list
+Nov 21 02:48:19 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 21 02:48:19 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 02:48:28 dallas-Inspiron-7559 sudo:   dallas : TTY=pts/0 ; PWD=/home/dallas ; USER=root ; COMMAND=/usr/bin/apt update
+Nov 21 02:48:28 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 21 02:48:33 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 02:48:47 dallas-Inspiron-7559 sudo:   dallas : TTY=pts/0 ; PWD=/home/dallas ; USER=root ; COMMAND=/usr/bin/apt install dotnet-sdk-2.0.3
+Nov 21 02:48:47 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 21 02:50:33 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 02:50:47 dallas-Inspiron-7559 sudo:   dallas : TTY=pts/0 ; PWD=/home/dallas ; USER=root ; COMMAND=/usr/bin/apt install dotnet-sdk-2.0.3
+Nov 21 02:50:47 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 21 02:53:06 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 02:55:55 dallas-Inspiron-7559 sudo:   dallas : TTY=pts/0 ; PWD=/home/dallas ; USER=root ; COMMAND=/usr/bin/apt install dotnet-sdk-2.0.3
+Nov 21 02:55:55 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 21 02:57:08 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 02:58:54 dallas-Inspiron-7559 sudo:   dallas : TTY=pts/1 ; PWD=/home/dallas/Documents/tutorials/perl ; USER=root ; COMMAND=/usr/bin/apt install perltidy -y
+Nov 21 02:58:54 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 21 02:58:59 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 03:17:01 dallas-Inspiron-7559 CRON[10455]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 03:17:01 dallas-Inspiron-7559 CRON[10455]: pam_unix(cron:session): session closed for user root
+Nov 21 03:35:41 dallas-Inspiron-7559 gnome-keyring-daemon[1030]: asked to register item /org/freedesktop/secrets/collection/Default_5fkeyring/154, but it's already registered
+Nov 21 03:36:11 dallas-Inspiron-7559 sudo:   dallas : TTY=pts/1 ; PWD=/home/dallas ; USER=root ; COMMAND=/usr/bin/nautilus
+Nov 21 03:36:11 dallas-Inspiron-7559 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
