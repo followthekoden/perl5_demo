@@ -1,0 +1,39 @@
+COMMAND=/usr/bin/apt update
+ROOT SESSION OPENED
+ROOT SESSION CLOSED
+COMMAND=/usr/bin/apt list --upgradable
+ROOT SESSION OPENED
+ROOT SESSION CLOSED
+COMMAND=/usr/bin/apt upgrade
+ROOT SESSION OPENED
+ROOT SESSION OPENED
+COMMAND=/usr/lib/update-notifier/package-system-locked]
+ROOT SESSION CLOSED
+ROOT SESSION OPENED
+COMMAND=/usr/lib/update-notifier/package-system-locked]
+ROOT SESSION OPENED
+ROOT SESSION CLOSED
+COMMAND=/usr/bin/apt install curl
+ROOT SESSION OPENED
+ROOT SESSION CLOSED
+COMMAND=/bin/mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
+ROOT SESSION OPENED
+ROOT SESSION CLOSED
+COMMAND=/bin/sh -c echo "deb [arch=amdROOT SESSION OPENED
+ROOT SESSION CLOSED
+COMMAND=/usr/bin/apt update
+ROOT SESSION OPENED
+ROOT SESSION CLOSED
+COMMAND=/usr/bin/apt install dotnet-sdk-ROOT SESSION OPENED
+ROOT SESSION CLOSED
+COMMAND=/usr/bin/apt install dotnet-sdk-ROOT SESSION OPENED
+ROOT SESSION CLOSED
+COMMAND=/usr/bin/apt install dotnet-sdk-ROOT SESSION OPENED
+ROOT SESSION CLOSED
+COMMAND=/usr/bin/apt install perltidy -y
+ROOT SESSION OPENED
+ROOT SESSION CLOSED
+ROOT SESSION OPENED
+ROOT SESSION CLOSED
+COMMAND=/usr/bin/nautilus
+ROOT SESSION OPENED
